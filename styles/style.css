@@ -1,0 +1,142 @@
+/*------------
+font------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+/*-------- head section ------*/
+header {
+    background-color: rgb(59, 59, 228)
+}
+
+.heads {
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+
+
+
+}
+
+
+
+
+.head {
+    font-size: 1.5em;
+    width: 485px;
+    height: 230px;
+    margin: 100px;
+    padding-left: 10px;
+    line-height: 80px;
+    size: 64px;
+
+
+
+
+
+}
+
+.fa-solid {
+    padding-left: 10px;
+}
+
+.clicks {
+    text-decoration: none;
+    border: 1px solid #ffff;
+    background-color: rgb(165, 42, 114);
+    padding: 6px 20px;
+    color: azure;
+
+
+
+
+
+}
+
+.first-img {
+    width: 549px;
+    height: 456px;
+    padding-right: 127px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+
+/*-----------players grid ------*/
+.container {
+    padding-top: 30px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+
+}
+
+.player .player-banner img {
+    width: 150px;
+    height: 150px;
+}
+
+.player {
+    width: 30;
+
+    padding: 30px 40px 30px 40px;
+
+    margin: 50px;
+    border: white;
+    box-shadow: 5px 5px 4px 5px #888888;
+    text-align: center;
+}
+
+.players-details {
+    text-align: center;
+}
+
+/*---------youtube video ------*/
+.h-y {
+    display: flex;
+    margin: 40px;
+    align-items: center;
+}
+
+.high {
+    text-align: center;
+    padding-right: 100px;
+}
+
+.copa {
+    text-align: justify;
+    justify-content: center;
+    padding-right: 120px;
+}
+
+.copa-2 {
+    text-align: justify;
+    justify-content: center;
+}
+
+.last {
+    text-align: center;
+
+}
+
+.last-1 {
+    width: 300px;
+    padding-top: 60px;
+}
+
+/*-------------footer----------*/
+
+.font-1 {
+    text-align: center;
+    color: rgb(0, 226, 226);
+    padding-bottom: 10px;
+
+
+}
+
+.footer-2 {
+    text-align: center;
+    padding-top: 10px;
+}
